@@ -1,0 +1,142 @@
+Questão 1
+Qual dessas linhas de código é um comando JavaScript válido para declarar uma variável que armazenará a idade mínima, inicializando-a com o valor 18?
+
+
+A) var idadeMinima = 18;
+
+
+B) var idadeMinina == 18;
+
+
+C) var idade minima = 18;
+
+
+D) var idadeMinima <- 18;
+
+
+E) int idadeMinima = 18;
+-----------------------------------------------------------------------------------------------------------------
+Questão 2
+Após as seguintes declarações, os tipos de dados das variáveis w, x, y e z são, respectivamente:
+
+var x;
+var y = undefined;
+var z = 0;
+
+A) string, null, undefined, number
+
+
+B) string, undefined, undefined, number
+
+
+C) null, null, undefined, null
+
+
+D) char, undefined, undefined, object
+
+
+E) null, undefined, undefined, null
+-----------------------------------------------------------------------------------------------------------------
+Questão 3
+Com base no código abaixo, o que será exibido no console?
+
+var x = 10;
+console.log(x + y);
+let y = 15;
+
+A) 10
+
+B) undefined.
+
+
+C) null.
+
+D) 25
+
+E) Será exibido um erro, pois variáveis declaradas com let não sofrem elevação de escopo(hoisting).
+-----------------------------------------------------------------------------------------------------------------
+Questão 4
+O resultado das expressões booleanas abaixo serão, respectivamente:
+
+0 <= 0
+1 < 1
+-2 > -22
+-22 > 0
+
+A) true, true, false, false
+
+
+B) true, false, true, true
+
+
+C) true, false, true, false
+
+
+D) false, true, false, true
+
+
+E) false, true, false, false
+-----------------------------------------------------------------------------------------------------------------
+Questão 5
+Qual outra afirmação é equivalente a essa:
+
+x < 42 || x > 42 ?
+
+
+A) x < 42 && x > 42
+
+
+B) x === 42
+
+
+C) x < 42 && x >= 43
+
+
+D) !x < 42
+
+
+E) x !== 42
+-----------------------------------------------------------------------------------------------------------------
+Questão 6
+Qual mensagem será mostrada quando o código abaixo for executado?
+
+if (50 > 100) {
+console.log("Falta um tanto");
+} else {
+if ("1" == "-1") {
+console.log("Quase lá");
+}
+
+if (!null) {
+console.log("Sucesso");
+}
+}
+
+A) "Falta um tanto"
+
+
+B) "No caminho"
+
+
+C) "Quase lá"
+
+
+D) "Sucesso"
+
+
+E) Nenhuma mensagem será exibida.
+
+
+Respostas:
+
+Q1 = A) var idadeMinima = 18;
+
+Q2= B) string, undefined, undefined, number
+
+Q3= E) Será exibido um erro, pois variáveis declaradas com let não sofrem elevação de escopo(hoisting).
+
+Q4= C) true, false, true, false
+
+Q5= E) x !== 42
+
+Q6= D) "Sucesso"

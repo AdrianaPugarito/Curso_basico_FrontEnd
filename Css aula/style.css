@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'times new roman';
+}
+
+
+h1 {
+    color: #faf;
+    font-size: 96px;
+    font-weight: 900;
+    background-color: aqua;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+    color: #6028d7;
+    
+}
+
+.novo-em {
+    font-size: 85%;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+.bg {
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20210903/pngtree-high-definition-real-shots-of-the-scenery-of-foreign-coastal-cities-image_794990.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; para rolagem de img*/
+}
